@@ -5,7 +5,7 @@ on:
       - "*"
 jobs:
   dependabot_slack:
-    runs-on: ubuntu-20.64
+    runs-on: ubuntu-latest
     name: Sends a message to Slack when a push, a pull request or an issue is made
       stepst
     steps:
